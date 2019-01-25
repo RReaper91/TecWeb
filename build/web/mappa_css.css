@@ -1,0 +1,144 @@
+#map {
+    height: 550px;
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+/*Aggiungi elimina sonda nella pagina admin*/
+#titolo {
+    top: 100px;
+    margin-left: 700px;
+    font-family: verdana;
+    font-size: 20px;
+    color: black;
+    height: 75px;
+    width: 550px;
+}
+
+/*contiene i pulsanti e la tabella della pagina admin*/
+.container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    height: 700px;
+}
+
+/*bottone logout presente nella pagina dell'admin*/
+#logout {
+   position: absolute;
+    right: 0;
+    left: 300px;
+    top: 700px;
+    width: 100%;
+    height: 700px;
+}
+
+/*bottone utenti in sospeso presente nella pagina dell'admin*/
+#sospesi {
+    position: absolute;
+    right: 0;
+    left: 100px;
+    top: 700px;
+    width: 100%;
+    height: 700px;
+}
+
+#table1 {
+    margin-left: 700px;
+    margin-top: 110px;
+}
+
+/*riquadro città presente in area utente*/
+#table2 {
+    margin-left: 700px;
+    margin-top: 140px;
+}
+
+/*riquadro inquinante presente in area utente*/
+#table3 {
+    margin-left: 700px;
+    margin-top: 170px;
+}
+
+/*riquadro data inizio e data fine presente in area utente*/
+#table3-1 {
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+/*tasto Media prensente in area utente*/
+#table3-2 {
+    margin-left: 700px;
+    margin-top: 230px;
+}
+
+/*tasto inserisci prensente nell'area admin*/
+#table4 {
+    margin-left: 700px;
+    margin-top: 270px;
+}
+
+/*tasto elimina presente nell'area admi*/
+#table5 {
+    margin-left: 793px;
+    margin-top: 270px;
+}
+
+/*scrittura nella pagina dell'utente non registrato*/
+#table6 {
+    margin-left: 700px;
+    margin-top: 110px;
+    font-family: verdana;
+    font-size: 20px;
+    color: black;
+    height: 75px;
+    width: 550px;
+}
+
+/*bottone media sul territorio presente in area utente*/
+#table12 {
+   margin-left: 700px;
+    margin-top: 300px;
+}
+
+/*logout presente in mappa.jsp(Area utente)*/
+#table13 {
+   margin-left: 500px;
+    margin-top: 700px;
+}
+
+/*tabella con visione totale della città presente nell'area admin*/
+#table14 {
+   margin-left: 1000px;
+    margin-top: 25px;
+}
+
+/*scritta area admin nella pagina admin.jsp*/
+#h1 {
+    background-color: activecaption;
+}
